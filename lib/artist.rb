@@ -21,9 +21,8 @@ class Artist
     add_song(song)
   end 
   
-  def song_count
-    artists_songs = songs
-    artists_array.count 
+  def self.song_count
+    Song.all 
   end 
     
   
